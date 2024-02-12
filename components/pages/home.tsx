@@ -10,7 +10,7 @@ import HeroSection from "../organisms/hero";
 export default function HomePage() {
     return (
         <>
-            {/* <HeroSection /> */}
+            <HeroSection />
             <FeaturesSection />
             <MetricsGroup />
             <AboutSection />

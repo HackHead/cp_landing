@@ -11,6 +11,14 @@
   --input-border: #868686;
   --input-text: #A2A2A2;
   --secondary: #1E1E1E;
+  /* 
+  --react-international-phone-width: 100%; */
+  /* --react-international-phone-text-color: #fff;
+  --react-international-phone-background-color: var(--input-gray);
+  --react-international-phone-border-radius: 9999px; */
+  --react-international-phone-height: 3rem;
+  --react-international-phone-border-color: var(--input-border);
+  --react-international-phone-country-selector-background-color-hover: rgba(0, 0, 0, 0.005);
 }
 
 body {
