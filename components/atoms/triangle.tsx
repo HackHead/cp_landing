@@ -57,5 +57,5 @@ export default function Triangle({ position, color }: { position: TrianglePositi
     }
 
 
-    return <div className="w-0 h-0 absolute" style={triangleStyles}></div>;
+    return <div className="w-0 h-0 absolute hidden lg:block" style={triangleStyles}></div>;
 }

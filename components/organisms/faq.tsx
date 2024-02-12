@@ -26,14 +26,14 @@ export default function FaqSection() {
                 position="top-left"
                 color="var(--primary)"
             />
-            <div className="pt-24 pb-20 gap-20 max-w-6xl mx-auto">
+            <div className="pt-10 pb-8 lg:pt-24 lg:pb-20 gap-20 max-w-6xl 2xl:max-w-7xl mx-auto">
                 <div>
-                    <h2 className="uppercase text-primary font-extrabold text-6xl w-full text-right">FAQ</h2>
-                    <div className="text-white font-medium space-y-8 mt-16 text-lg leading-9 tracking-widest">
+                    <h2 className="uppercase text-primary font-extrabold text-3xl lg:text-6xl w-full text-center lg:text-right ">FAQ</h2>
+                    <div className="text-white font-medium space-y-8 mt-10 lg:mt-16 text-lg leading-9 tracking-widest px-8 lg:px-0 sm:px-5 md:px-3">
                         <Accordion type="single" collapsible className="w-full space-y-3">
                             {FAQS.map((item) => (
                                 <AccordionItem value={item.id} key={item.id}>
-                                    <AccordionTrigger>{item.question}</AccordionTrigger>
+                                    <AccordionTrigger className="text-base lg:text-lg">{item.question}</AccordionTrigger>
                                     <AccordionContent>
                                         {item.answer}
                                     </AccordionContent>

@@ -4,9 +4,9 @@ import Triangle from "../atoms/triangle";
 export default function AboutSection() {
     return (
         <section className="bg-dark relative">
-            <div className="grid grid-cols-2 pt-24 pb-20 gap-20 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 pt-24 pb-20 gap-20 max-w-6xl 2xl:max-w-7xl mx-auto px-10 lg:px-0 sm:px-5 md:px-3">
                 <div>
-                    <h2 className="uppercase text-primary font-extrabold text-6xl">About us</h2>
+                    <h2 className="uppercase text-primary font-extrabold text-3xl lg:text-6xl">About us</h2>
                     <div className="text-white font-medium space-y-8 mt-16 text-lg leading-9 tracking-widest">
                         <p>
                             Collect & Pay is a FinTech company that developed a state of the art technological solution for global cash flow management and international payments for your business.
@@ -19,7 +19,7 @@ export default function AboutSection() {
                         </p>
                     </div>
                 </div>
-                <div className="flex justify-end">
+                <div className="justify-end hidden lg:flex">
                     <Image
                         src={"/img/building.webp"}
                         alt="building image"

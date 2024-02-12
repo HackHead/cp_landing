@@ -6,9 +6,9 @@ import Triangle from "../atoms/triangle";
 export default function OnboardingSection() {
     return (
         <section className="bg-dark relative">
-            <div className="pt-24 pb-20 max-w-6xl mx-auto">
-                <h2 className="uppercase text-white font-extrabold text-6xl text-center">Onboarding Process</h2>
-                <div className="grid grid-cols-3 gap-10 mt-16">
+            <div className="pt-24 pb-20 max-w-6xl 2xl:max-w-7xl mx-auto px-10 lg:px-0 sm:px-5 md:px-3">
+                <h2 className="uppercase text-white font-extrabold text-3xl lg:text-6xl text-center">Onboarding Process</h2>
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-16">
                     <Card className="border border-primary space-y-8 py-10">
                         <div className="flex justify-center w-full">
                             <Icons.form className="max-w-24" />

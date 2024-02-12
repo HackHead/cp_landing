@@ -10,12 +10,9 @@ import HeroSection from "../organisms/hero";
 export default function HomePage() {
     return (
         <>
-            <div className="triangle"></div>
-            <HeroSection />
+            {/* <HeroSection /> */}
             <FeaturesSection />
-            <div className="py-32 bg-light-grey">
-                <MetricsGroup className="max-w-6xl mx-auto" />
-            </div>
+            <MetricsGroup />
             <AboutSection />
             <GetInTouchSection />
             <OnboardingSection />

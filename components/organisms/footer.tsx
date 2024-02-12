@@ -12,7 +12,7 @@ const SOCIAL_LINKS = [
 
 export default function Footer() {
     return (
-        <footer className="px-20 bg-dark font-medium text-white pt-20 pb-24">
+        <footer className="px-10 lg:px-20 bg-dark font-medium text-white pt-20 pb-24">
             <FooterSocialLinksGroup />
             <div className="div mt-12">
                 <div className="text-center">
